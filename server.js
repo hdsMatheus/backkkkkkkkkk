@@ -6,7 +6,7 @@ const path = require("path");
 const jwt = require("jsonwebtoken");
 
 const app = express();
-const port = 3000;
+const port = 3001;
 const segredoJWT = "seuSegredoSuperSecreto";
 
 app.use(cors());
