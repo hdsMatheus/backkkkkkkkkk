@@ -197,8 +197,8 @@ app.get("/obterrpg", (req, res) => {
     res.json(resultados);
   });
 });
-app.get("/", async (req, res) => {
-  res.sendfile(path.join(__dirname, "index.html"));
+app.get("/oi", async (req, res) => {
+  res.sendfile(path.join(__dirname, "teste.html"));
 });
 
 app.get("/registrar", async (req, res) => {
